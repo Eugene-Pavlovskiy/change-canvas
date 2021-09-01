@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change</title>
+</head>
+<body>
+    <div style="padding: 30px;">
+        <h2>Color Change Theme</h2>
+        <div style="display: flex;">
+            <ul style="display: flex; list-style: none;">
+                <li>
+                    <button onclick="greenTheme()">green theme</button>
+                </li>
+    
+                <li>
+                    <button onclick="redTheme()">red theme</button>
+                </li>
+    
+                <li>
+                    <button onclick="blueTheme()">blue theme</button>
+                </li>
+    
+                <li>
+                    <button onclick="yellowTheme()">yellow theme</button>
+                </li>
+    
+                <li>
+                    <button onclick="blackTheme()">black theme</button>
+                </li>
+            </ul>
+        </div>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <div style="padding: 50px;">
+        <button onclick="newTheme()">new theme</button>
+        <canvas id='c' style='margin-top: 20px; height: 300px; width: 100%; background:#66f805;'></canvas>
+    </div>
+       
+    <script src="dishes.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/2.0.0/trianglify.min.js"></script>
+    
+</body>
+</html>
